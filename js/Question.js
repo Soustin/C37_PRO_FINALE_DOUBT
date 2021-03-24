@@ -15,8 +15,6 @@ class Question{
 
     hide(){
         this.title.hide();
-        this.greeting.hide();
-        this.button.hide();
         this.input.hide();
     }
 
