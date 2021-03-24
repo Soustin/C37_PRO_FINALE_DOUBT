@@ -26,16 +26,10 @@ class Quiz{
             }
             question = new Question();
             question.display();
-
-            // if(contestantCount === 4){
-            //     gameState = 1
-            // }
         }
     }
 
     play(){
-
-        // var question = new Question();
         question.hide();
         background("pink");
         fill(0);
@@ -62,10 +56,7 @@ class Quiz{
         text(allContestants[plr].name + ": " + allContestants[plr].answer1, 350,display_Answers);
         
     }
-
-    //   if(question.submit.mousePressed()){
-    //       question.inputQ1 = allContestants[plr].answer1;
-    //   }
+    
     }
         
     }
